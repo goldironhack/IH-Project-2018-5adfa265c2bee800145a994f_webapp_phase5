@@ -1,9 +1,24 @@
-body {
-    color: #444;
-    font-family: Arial, sans-serif;
+
+.header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
+body {
+	position: relative;
+}
+
+.bg-transparent {
+	transition: all 1s ease;
+}
+
+#map {
+	height: 85vh;
+}
+
+#tableScroll {
+  height: 300px;
+  overflow-y: auto;  
+  margin-top: 20px;
 }
